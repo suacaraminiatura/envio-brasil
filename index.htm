@@ -1,0 +1,1920 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#212529">
+    <title>Miniaturas 3D Personalizadas | Eternize suas memórias</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="css2?family=Montserrat:wght@300;400;500;600;700&family=Cormorant+Garamond:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+        <!-- Script do UTMify -->
+  <script src="scripts/utms/latest.js" data-utmify-prevent-xcod-sck="" data-utmify-prevent-subids="" async="" defer=""></script>
+</head>
+<body>
+
+  <!-- Seu conteúdo aqui -->
+
+  <!-- Script do Pixel (colocar no final do body é melhor) -->
+  <script>
+    window.pixelId = "67f8b360ce5838d5608f7b30";
+    var a = document.createElement("script");
+    a.setAttribute("async", "");
+    a.setAttribute("defer", "");
+    a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+    document.head.appendChild(a);
+  </script>
+ 
+    
+    
+    <style>
+        :root {
+            --primary-color: #212529;
+            --secondary-color: #e9ecef;
+            --accent-color: #d6ad60;
+            --accent-hover: #c19845;
+            --text-color: #495057;
+            --light-text: #868e96;
+            --light-color: #ffffff;
+            --dark-color: #161a1d;
+            --light-accent: #f8f9fa;
+            --shadow-color: rgba(0, 0, 0, 0.08);
+            --transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            --success-color: #40916c;
+            --info-color: #caf0f8;
+            --border-radius: 6px;
+            --border-radius-lg: 12px;
+            --header-height: 70px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            color: var(--text-color);
+            background-color: #fafafa;
+            line-height: 1.6;
+            font-weight: 400;
+            letter-spacing: 0.01em;
+        }
+
+        h1, h2, h3, h4 {
+            font-family: 'Cormorant Garamond', serif;
+            margin-bottom: 1rem;
+            color: var(--primary-color);
+            letter-spacing: -0.02em;
+            font-weight: 600;
+            line-height: 1.3;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 25px;
+        }
+
+        /* Header */
+        header {
+            background-color: var(--light-color);
+            box-shadow: 0 2px 20px var(--shadow-color);
+            padding: 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            height: var(--header-height);
+            display: flex;
+            align-items: center;
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            width: 100%;
+            position: relative;
+        }
+
+        .logo {
+            font-size: 1.7rem;
+            font-weight: 500;
+            color: var(--primary-color);
+            text-decoration: none;
+            text-align: center;
+            font-family: 'Cormorant Garamond', serif;
+            letter-spacing: 1px;
+            position: relative;
+            padding: 0 10px;
+            display: inline-block;
+        }
+        
+        .logo:before, .logo:after {
+            content: '';
+            position: absolute;
+            height: 1px;
+            width: 30px;
+            background-color: var(--accent-color);
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        
+        .logo:before {
+            left: -35px;
+        }
+        
+        .logo:after {
+            right: -35px;
+        }
+
+        /* Product Section */
+        .product-section {
+            padding: 4rem 0;
+        }
+
+        .product-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 3rem;
+            align-items: flex-start;
+        }
+
+        .product-gallery {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .product-details {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        /* Image Gallery */
+        .main-image {
+            width: 100%;
+            height: 450px;
+            border-radius: var(--border-radius-lg);
+            overflow: hidden;
+            margin-bottom: 1.2rem;
+            box-shadow: 0 10px 30px var(--shadow-color);
+            position: relative;
+        }
+
+        .main-image:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border: 1px solid rgba(0,0,0,0.05);
+            border-radius: var(--border-radius-lg);
+            z-index: 1;
+            pointer-events: none;
+        }
+
+        .main-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.7s cubic-bezier(0.33, 1, 0.68, 1);
+        }
+
+        .main-image:hover img {
+            transform: scale(1.05);
+        }
+
+        .thumbnail-container {
+            display: flex;
+            gap: 0.8rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .thumbnail {
+            width: 80px;
+            height: 80px;
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            cursor: pointer;
+            border: 1px solid transparent;
+            transition: var(--transition);
+            position: relative;
+        }
+
+        .thumbnail.active {
+            border-color: var(--accent-color);
+        }
+
+        .thumbnail img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .thumbnail:hover:not(.active) {
+            opacity: 0.85;
+            transform: translateY(-3px);
+        }
+
+        /* Product Info */
+        .product-title {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            color: var(--primary-color);
+            letter-spacing: -0.02em;
+            position: relative;
+            display: inline-block;
+        }
+
+        .product-title:after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 60px;
+            height: 2px;
+            background-color: var(--accent-color);
+        }
+
+        .product-tagline {
+            font-size: 1.1rem;
+            margin: 1.8rem 0 1.2rem;
+            color: var(--light-text);
+            font-weight: 400;
+            letter-spacing: 0.5px;
+        }
+
+        .product-description {
+            margin-bottom: 2.5rem;
+            line-height: 1.8;
+            font-size: 1.05rem;
+        }
+
+        .product-description p {
+            margin-bottom: 1.2rem;
+        }
+
+        .product-description ul {
+            padding-left: 1.5rem;
+            margin-bottom: 1.2rem;
+        }
+
+        .product-description li {
+            margin-bottom: 0.7rem;
+        }
+
+        .highlight {
+            color: var(--accent-color);
+            font-weight: 500;
+        }
+
+        /* Variant Selection */
+        .variant-selection {
+            margin-bottom: 2.5rem;
+            background-color: var(--light-color);
+            padding: 2rem;
+            border-radius: var(--border-radius-lg);
+            box-shadow: 0 8px 30px var(--shadow-color);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .variant-selection:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 5px;
+            height: 100%;
+            background-color: var(--accent-color);
+        }
+
+        .variant-title {
+            font-size: 1.25rem;
+            margin-bottom: 1.5rem;
+            font-weight: 600;
+            position: relative;
+        }
+
+        .variant-options {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .variant-option {
+            flex: 1;
+            min-width: 120px;
+            padding: 1.2rem;
+            border: 1px solid #eaeaea;
+            border-radius: var(--border-radius);
+            text-align: center;
+            cursor: pointer;
+            transition: var(--transition);
+            background-color: var(--light-color);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .variant-option:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px var(--shadow-color);
+        }
+
+        .variant-option.selected {
+            border-color: var(--accent-color);
+            background-color: rgba(214, 173, 96, 0.05);
+        }
+        
+        .variant-option.selected:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background-color: var(--accent-color);
+        }
+
+        .variant-option h4 {
+            font-size: 1.05rem;
+            margin-bottom: 0.7rem;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+        }
+
+        .variant-price {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: var(--accent-color);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .original-price {
+            text-decoration: line-through;
+            font-size: 0.9rem;
+            color: var(--light-text);
+            font-weight: normal;
+        }
+
+        /* Discount Callout */
+        .discount-callout {
+            background-color: rgba(214, 173, 96, 0.08);
+            border-left: 3px solid var(--accent-color);
+            padding: 1.2rem 1.5rem;
+            margin-bottom: 2.5rem;
+            border-radius: 0 var(--border-radius) var(--border-radius) 0;
+            position: relative;
+        }
+        
+        .discount-callout:before {
+            content: '⚡';
+            position: absolute;
+            left: -15px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 30px;
+            height: 30px;
+            background-color: var(--accent-color);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+        }
+
+        .discount-callout h3 {
+            font-size: 1.15rem;
+            margin-bottom: 0.5rem;
+            color: var(--primary-color);
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+        }
+
+        /* Buy Button */
+        .buy-button {
+            display: inline-block;
+            width: 100%;
+            padding: 1.2rem 2rem;
+            background-color: var(--accent-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            text-align: center;
+            font-size: 1.1rem;
+            transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            border: none;
+            cursor: pointer;
+            margin-bottom: 2rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            box-shadow: 0 8px 25px rgba(214, 173, 96, 0.25);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .buy-button:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, transparent 25%, rgba(255,255,255,0.15) 50%, transparent 75%);
+            background-size: 200% 200%;
+            animation: shimmer 2s infinite linear;
+            z-index: 1;
+        }
+        
+        @keyframes shimmer {
+            0% {
+                background-position: 0% 0%;
+            }
+            100% {
+                background-position: 100% 100%;
+            }
+        }
+
+        .buy-button:hover {
+            background-color: var(--accent-hover);
+            transform: translateY(-3px);
+            box-shadow: 0 12px 30px rgba(214, 173, 96, 0.3);
+        }
+        
+        .buy-button span {
+            position: relative;
+            z-index: 2;
+        }
+
+        /* Features Section */
+        .features-section {
+            padding: 6rem 0;
+            background-color: var(--primary-color);
+            position: relative;
+        }
+        
+        .features-section:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23d6ad60' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+            opacity: 0.1;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: white;
+            position: relative;
+        }
+        
+        .section-subtitle {
+            text-align: center;
+            color: rgba(255,255,255,0.7);
+            margin-bottom: 4rem;
+            font-size: 1.1rem;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+        }
+        
+                .section-title-3 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: black;
+            position: relative;
+        }
+        
+        .section-subtitle-3 {
+            text-align: center;
+            color: black;
+            margin-bottom: 4rem;
+            font-size: 1.1rem;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+        }
+        
+        .section-subtitle:after {
+            content: '';
+            position: absolute;
+            bottom: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 2px;
+            background-color: var(--accent-color);
+        }
+
+        .features-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2.5rem;
+            position: relative;
+            z-index: 2;
+        }
+
+        .feature-card {
+            background-color: rgba(255,255,255,0.03);
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+            transition: var(--transition);
+            position: relative;
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(255,255,255,0.05);
+        }
+
+        .feature-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+            background-color: rgba(255,255,255,0.05);
+        }
+
+        .feature-icon {
+            width: 100%;
+            height: 140px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.8rem;
+            color: var(--accent-color);
+            background-color: rgba(214, 173, 96, 0.05);
+            position: relative;
+        }
+        
+        .feature-icon:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 3px;
+            background-color: var(--accent-color);
+        }
+
+        .feature-content {
+            padding: 2rem;
+        }
+
+        .feature-content h3 {
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+        }
+        
+        .feature-content p {
+            color: rgba(255,255,255,0.7);
+            line-height: 1.7;
+        }
+
+        /* How It Works Section */
+        .how-it-works {
+            padding: 6rem 0;
+            background-color: #fcfcfc;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .how-it-works:before {
+            content: '';
+            position: absolute;
+            top: -100px;
+            right: -100px;
+            width: 400px;
+            height: 400px;
+            border-radius: 50%;
+            background-color: rgba(214, 173, 96, 0.05);
+            z-index: 0;
+        }
+        
+        .how-it-works:after {
+            content: '';
+            position: absolute;
+            bottom: -100px;
+            left: -100px;
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            background-color: rgba(214, 173, 96, 0.03);
+            z-index: 0;
+        }
+
+        .steps-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 4rem;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .steps-line {
+            position: absolute;
+            top: 40px;
+            left: 10%;
+            right: 10%;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, var(--accent-color) 20%, var(--accent-color) 80%, transparent);
+            z-index: 1;
+        }
+
+        .step {
+            flex: 1;
+            min-width: 200px;
+            text-align: center;
+            padding: 0 1.5rem;
+            position: relative;
+            margin-bottom: 3rem;
+            z-index: 2;
+        }
+
+        .step-number {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color: white;
+            color: var(--accent-color);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1.5rem;
+            font-size: 1.7rem;
+            font-weight: 700;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+            position: relative;
+            border: 2px solid var(--accent-color);
+            font-family: 'Cormorant Garamond', serif;
+        }
+        
+        .step-number:before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            border: 1px solid var(--accent-color);
+            opacity: 0.3;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% {
+                width: 100%;
+                height: 100%;
+                opacity: 0.5;
+            }
+            100% {
+                width: 150%;
+                height: 150%;
+                opacity: 0;
+            }
+        }
+
+        .step h3 {
+            font-size: 1.3rem;
+            margin-bottom: 0.8rem;
+            color: var(--primary-color);
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+        }
+        
+        .step p {
+            color: var(--text-color);
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+
+        /* Testimonials */
+        .testimonials {
+            padding: 6rem 0;
+            background-color: #f8f9fa;
+            position: relative;
+        }
+        
+        .testimonials:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(214, 173, 96, 0.2), transparent);
+        }
+
+        .testimonials-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2.5rem;
+            position: relative;
+        }
+
+        .testimonial-card {
+            background-color: var(--light-color);
+            border-radius: var(--border-radius);
+            padding: 2.5rem;
+            box-shadow: 0 15px 35px var(--shadow-color);
+            position: relative;
+            transition: var(--transition);
+        }
+        
+        .testimonial-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 25px 45px var(--shadow-color);
+        }
+
+        .testimonial-card:before {
+            content: '"';
+            position: absolute;
+            top: 20px;
+            left: 25px;
+            font-size: 5rem;
+            color: var(--accent-color);
+            font-family: 'Cormorant Garamond', serif;
+            opacity: 0.2;
+            line-height: 0.6;
+        }
+
+        .testimonial-content {
+            margin-bottom: 2rem;
+            position: relative;
+            z-index: 1;
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: var(--text-color);
+            font-style: italic;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .author-avatar {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-right: 1rem;
+            border: 2px solid var(--accent-color);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+        }
+
+        .author-avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .author-info h4 {
+            margin-bottom: 0.2rem;
+            font-size: 1.1rem;
+            color: var(--primary-color);
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+        }
+
+        .author-info p {
+            color: var(--light-text);
+            font-size: 0.9rem;
+        }
+
+        /* Footer */
+        footer {
+            padding: 4rem 0 2rem;
+            background-color: var(--primary-color);
+            color: rgba(255, 255, 255, 0.7);
+            position: relative;
+        }
+        
+        footer:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 10px;
+            background: linear-gradient(90deg, var(--accent-color), var(--accent-hover), var(--accent-color));
+        }
+
+        .footer-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 3rem;
+        }
+
+        .footer-column {
+            flex: 1;
+            min-width: 230px;
+        }
+
+        .footer-column h3 {
+            color: white;
+            margin-bottom: 1.5rem;
+            font-size: 1.2rem;
+            position: relative;
+            display: inline-block;
+            padding-bottom: 10px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+        
+        .footer-column h3:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 40px;
+            height: 2px;
+            background-color: var(--accent-color);
+        }
+
+        .footer-column ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-column ul li {
+            margin-bottom: 0.8rem;
+        }
+
+        .footer-column a {
+            color: rgba(255, 255, 255, 0.7);
+            text-decoration: none;
+            transition: var(--transition);
+            position: relative;
+            display: inline-block;
+        }
+        
+        .footer-column a:before {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 0;
+            height: 1px;
+            background-color: var(--accent-color);
+            transition: var(--transition);
+        }
+
+        .footer-column a:hover {
+            color: var(--accent-color);
+        }
+        
+        .footer-column a:hover:before {
+            width: 100%;
+        }
+        
+        .footer-column p {
+            line-height: 1.8;
+        }
+
+        .copyright {
+            text-align: center;
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        /* Photo Upload Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(33, 37, 41, 0.9);
+            z-index: 1000;
+            opacity: 0;
+            transition: opacity 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+            backdrop-filter: blur(5px);
+        }
+
+        .modal.show {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 1;
+        }
+
+        .modal-content {
+            background-color: var(--light-color);
+            border-radius: var(--border-radius);
+            width: 90%;
+            max-width: 650px;
+            max-height: 90vh;
+            overflow-y: auto;
+            padding: 3rem;
+            position: relative;
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+            transform: translateY(30px);
+            opacity: 0;
+            transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+        }
+        
+        .modal-content::-webkit-scrollbar {
+            width: 6px;
+        }
+        
+        .modal-content::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 10px;
+        }
+        
+        .modal-content::-webkit-scrollbar-thumb {
+            background: var(--accent-color);
+            border-radius: 10px;
+        }
+
+        .modal.show .modal-content {
+            transform: translateY(0);
+            opacity: 1;
+        }
+
+        .close-modal {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 36px;
+            height: 36px;
+            background-color: rgba(0, 0, 0, 0.05);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-size: 1.2rem;
+            font-weight: 300;
+            color: var(--primary-color);
+            transition: var(--transition);
+            border: none;
+            z-index: 10;
+        }
+
+        .close-modal:hover {
+            background-color: rgba(0, 0, 0, 0.1);
+            transform: rotate(90deg);
+        }
+
+        .modal-title {
+            font-size: 1.7rem;
+            margin-bottom: 2rem;
+            text-align: center;
+            color: var(--primary-color);
+            position: relative;
+            padding-bottom: 15px;
+        }
+        
+        .modal-title:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 2px;
+            background-color: var(--accent-color);
+        }
+
+        /* Upload Form */
+        .upload-form {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.8rem;
+            font-weight: 500;
+            color: var(--primary-color);
+            font-size: 1.05rem;
+        }
+
+        .input-field {
+            width: 100%;
+            padding: 14px 18px;
+            border: 1px solid #e9ecef;
+            border-radius: var(--border-radius);
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1rem;
+            transition: var(--transition);
+            color: var(--text-color);
+            background-color: #fcfcfc;
+        }
+
+        .input-field:focus {
+            outline: none;
+            border-color: var(--accent-color);
+            box-shadow: 0 0 0 3px rgba(214, 173, 96, 0.1);
+            background-color: white;
+        }
+
+        textarea.input-field {
+            min-height: 140px;
+            resize: vertical;
+            line-height: 1.7;
+        }
+
+        /* File Upload */
+        .file-upload {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 3rem 2rem;
+            border: 2px dashed rgba(214, 173, 96, 0.3);
+            border-radius: var(--border-radius);
+            background-color: rgba(214, 173, 96, 0.03);
+            transition: var(--transition);
+            margin-bottom: 1.5rem;
+            cursor: pointer;
+        }
+
+        .file-upload:hover {
+            background-color: rgba(214, 173, 96, 0.05);
+            border-color: rgba(214, 173, 96, 0.5);
+        }
+
+        .file-upload input[type="file"] {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        .upload-icon {
+            display: block;
+            width: 70px;
+            height: 70px;
+            margin-bottom: 1.2rem;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%23d6ad60' stroke-width='1.5'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12' /%3E%3C/svg%3E");
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        .upload-preview {
+            display: flex;
+            gap: 1.2rem;
+            flex-wrap: wrap;
+            margin-top: 1.5rem;
+        }
+
+        .preview-item {
+            position: relative;
+            width: 110px;
+            height: 110px;
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            box-shadow: 0 5px 15px var(--shadow-color);
+            transition: var(--transition);
+        }
+        
+        .preview-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px var(--shadow-color);
+        }
+
+        .preview-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .preview-item .remove-btn {
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            width: 24px;
+            height: 24px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-size: 1rem;
+            color: #e63946;
+            transition: var(--transition);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .preview-item .remove-btn:hover {
+            background-color: white;
+            transform: scale(1.1);
+        }
+
+        /* Toast Notification */
+        .toast {
+            position: fixed;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%) translateY(100px);
+            background-color: var(--primary-color);
+            color: white;
+            padding: 14px 28px;
+            border-radius: 50px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            opacity: 0;
+            transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            z-index: 1001;
+            font-weight: 500;
+        }
+
+        .toast.show {
+            transform: translateX(-50%) translateY(0);
+            opacity: 1;
+        }
+
+        /* Success Message */
+        .success-message {
+            display: none;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .success-message.show {
+            display: block;
+            animation: fadeScale 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+        }
+        
+        @keyframes fadeScale {
+            from {
+                opacity: 0;
+                transform: scale(0.95);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        .success-icon {
+            width: 100px;
+            height: 100px;
+            background-color: rgba(64, 145, 108, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 2rem;
+            position: relative;
+            border: 2px solid var(--success-color);
+        }
+
+        .success-icon:after {
+            content: '';
+            width: 35px;
+            height: 20px;
+            border-left: 4px solid var(--success-color);
+            border-bottom: 4px solid var(--success-color);
+            transform: rotate(-45deg);
+            position: absolute;
+            top: 38%;
+        }
+        
+        .success-message h3 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            color: var(--primary-color);
+        }
+        
+        .success-message p {
+            color: var(--text-color);
+            margin-bottom: 1rem;
+            font-size: 1.05rem;
+            line-height: 1.7;
+        }
+
+        /* Media Queries */
+        @media (max-width: 768px) {
+            .product-container {
+                flex-direction: column;
+                gap: 2rem;
+            }
+
+            .product-title {
+                font-size: 2rem;
+            }
+
+            .main-image {
+                height: 350px;
+            }
+
+            .variant-option {
+                min-width: calc(50% - 0.5rem);
+            }
+
+            .features-container {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+            
+            .steps-line {
+                display: none;
+            }
+
+            .testimonials-container {
+                grid-template-columns: 1fr;
+            }
+            
+            .footer-container {
+                gap: 2rem;
+            }
+            
+            .step {
+                margin-bottom: 2.5rem;
+            }
+            
+            .step:last-child {
+                margin-bottom: 0;
+            }
+            
+            .section-title {
+                font-size: 2rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .logo {
+                font-size: 1.4rem;
+            }
+            
+            .logo:before, .logo:after {
+                width: 20px;
+            }
+            
+            .logo:before {
+                left: -25px;
+            }
+            
+            .logo:after {
+                right: -25px;
+            }
+
+            .product-title {
+                font-size: 1.7rem;
+            }
+            
+            .product-tagline {
+                font-size: 1rem;
+            }
+
+            .variant-option {
+                min-width: 100%;
+            }
+
+            .main-image {
+                height: 280px;
+            }
+
+            .thumbnail {
+                width: 60px;
+                height: 60px;
+            }
+
+            .buy-button {
+                font-size: 1rem;
+                padding: 1rem 1.5rem;
+            }
+            
+            .modal-content {
+                padding: 2rem 1.5rem;
+            }
+            
+            .file-upload {
+                padding: 2rem 1rem;
+            }
+            
+            .feature-card {
+                margin-bottom: 1rem;
+            }
+            
+            .feature-icon {
+                height: 120px;
+            }
+            
+            .testimonial-card {
+                padding: 2rem 1.5rem;
+            }
+            
+            .preview-item {
+                width: 90px;
+                height: 90px;
+            }
+            
+            .step-number {
+                width: 70px;
+                height: 70px;
+                font-size: 1.5rem;
+            }
+            
+            .section-title {
+                font-size: 1.8rem;
+            }
+            
+            .section-subtitle {
+                font-size: 1rem;
+            }
+        }
+        
+        .section-title-3 {
+                font-size: 1.8rem;
+            }
+            
+            .section-subtitle-3 {
+                font-size: 1rem;
+            }
+        }
+    </style>
+    
+    
+    
+         <script src="scripts/utms/latest.js" data-utmify-prevent-xcod-sck="" data-utmify-prevent-subids="" async="" defer=""></script>
+
+
+ 
+    
+    
+
+<body>
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo">Miniaturas <span style="color: var(--accent-color);">Artisticas</span></a>
+        </div>
+    </header>
+
+    <main>
+       <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miniatura Personalizada Com sua Foto - Eterna Lembrança</title>
+    <style>
+        /* Adicione seus estilos CSS aqui */
+    </style>
+</head>
+<body>
+    
+
+    <main>
+        <!-- Product Section -->
+        <section class="product-section">
+            <div class="container">
+                <div class="product-container">
+                    <div class="product-gallery">
+                        <div class="main-image">
+                            <img src="images/001.webp" alt="Miniatura 3D personalizada" id="main-product-image">
+                        </div>
+                        <div class="thumbnail-container">
+                            <div class="thumbnail active" data-image="images/001.webp">
+                                <img src="images/001.webp" alt="Miniatura 3D - Principal">
+                            </div>
+                            <div class="thumbnail" data-image="images/002.webp">
+                                <img src="images/002.webp" alt="Miniatura 3D - Detalhe">
+                            </div>
+                            <div class="thumbnail" data-image="images/003.webp">
+                                <img src="images/003.webp" alt="Miniatura 3D - Família">
+                            </div>
+                            <div class="thumbnail" data-image="images/004.webp">
+                                <img src="images/004.webp" alt="Miniatura 3D - Exemplo">
+                            </div>
+                            <div class="thumbnail" data-image="images/005.webp">
+                                <img src="images/005.webp" alt="Miniatura 3D - Exemplo">
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="product-details">
+                        <h1 class="product-title">Miniatura Personalizada Com sua Foto - Eterna Lembrança</h1>
+                        <p class="product-tagline">Eternize momentos especiais em alta definição</p>
+
+                        <div class="product-description">
+                            <p><strong>Eternize quem você ama em uma miniatura realista!</strong> ✨</p>
+                            <p>Algumas memórias são tão valiosas que merecem be preservadas para sempre. Agora, você pode transformar uma simples foto em uma <strong>miniatura 3D hiper-realista</strong>, capturando cada detalhe e expressão com perfeição.</p>
+                            <p>Seja para homenagear um ente querido, presentear alguém especial ou simplesmente guardar uma lembrança única, nossa tecnologia permite criar esculturas personalizadas que duram para sempre.</p>
+                        </div>
+
+ <div class="variant-selection">
+    <h3 class="variant-title">Escolha a quantidade de bonecos:</h3>
+    <div class="variant-options">
+        <div class="variant-option" data-option="1" data-price="49">
+            <h4>1 Boneco</h4>
+            <div class="variant-price"><span class="original-price">R$ 234,90</span>R$ 149,90</div>
+        </div>
+        <div class="variant-option" data-option="2" data-price="79">
+            <h4>2 Bonecos</h4>
+            <div class="variant-price"><span class="original-price">R$ 284,90</span>R$ 202,90</div>
+        </div>
+        <div class="variant-option" data-option="3" data-price="99">
+            <h4>3 Bonecos</h4>
+            <div class="variant-price"><span class="original-price">R$ 324,90</span>R$ 242,90</div>
+        </div>
+        <div class="variant-option" data-option="4" data-price="127">
+            <h4>4 Bonecos</h4>
+            <div class="variant-price"><span class="original-price">R$ 362,00</span>R$ 282,90</div>
+        </div>
+        <div class="variant-option" data-option="5" data-price="159">
+            <h4>5 Bonecos</h4>
+            <div class="variant-price"><span class="original-price">R$ 414,90</span>R$ 312,90</div>
+        </div>
+    </div>
+</div>
+
+
+                        <div class="discount-callout">
+                            <h3>10% de desconto no Pix!</h3>
+                            <p>Valores já com desconto. Aproveite essa condição especial para sua miniatura 3D personalizada.</p>
+                        </div>
+
+                        <button class="buy-button" id="buy-button"><span>Escolher Fotos e compra</span></button>
+
+                        <div class="product-description">
+                            <h3>Como funciona?</h3>
+                            <ol>
+                                <li><strong>Faça seu pedido</strong> – Escolha a quantidade e finalize a compra.</li>
+                                <li><strong>Envie e foto</strong> – Antes de confirma o pagamento ja recebemos a foto junto com a instruçãoes.</li>
+                                <li><strong>Produção personalizada</strong> – Nossa equipe transforma sua imagem em um modelo 3D com riqueza de detalhes.</li>
+                                <li><strong>Impressão em alta qualidade</strong> – Utilizamos <strong>tecnologia de ponta</strong> para garantir uma reprodução fiel e durável.</li>
+                                <li><strong>Entrega segura e rápida</strong> – Sua miniatura será cuidadosamente embalada e enviada para o endereço desejado.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features-section">
+            <div class="container">
+                <h2 class="section-title">Por que escolher nossas miniaturas 3D?</h2>
+                <p class="section-subtitle">Descubra o que torna nossas miniaturas únicas e memoráveis</p>
+                <div class="features-container">
+                    <div class="feature-card">
+                        <div class="feature-icon">✨</div>
+                        <div class="feature-content">
+                            <h3>Hiper-realismo surpreendente</h3>
+                            <p>Capturamos cada detalhe, expressão e traço da foto enviada.</p>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🛡️</div>
+                        <div class="feature-content">
+                            <h3>Material exclusivo RealFormX</h3>
+                            <p>Desenvolvido para proporcionar resistência, durabilidade e acabamento impecável.</p>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📏</div>
+                        <div class="feature-content">
+                            <h3>Tamanhos disponíveis</h3>
+                            <p>Criamos miniaturas entre 15 a 25 cm, dependendo da imagem enviada.</p>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">⏱️</div>
+                        <div class="feature-content">
+                            <h3>Processo fácil e rápido</h3>
+                            <p>Basta enviar uma foto e nós cuidamos do resto!</p>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🎁</div>
+                        <div class="feature-content">
+                            <h3>Presente perfeito e emocional</h3>
+                            <p>Uma forma única de eternizar momentos e pessoas especiais.</p>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">✅</div>
+                        <div class="feature-content">
+                            <h3>Garantia de 30 dias</h3>
+                            <p>Caso haja qualquer defeito na peça, oferecemos garantia total para ajustes ou troca.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works Section -->
+        <section class="how-it-works">
+            <div class="container">
+                <h2 class="section-title-3">Processo Simples e Rápido</h2>
+                <p class="section-subtitle-3">Em apenas quatro passos, transformamos suas fotos em obras de arte tridimensionais</p>
+                <div class="steps-container">
+                    <div class="steps-line"></div>
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <h3>Escolha e Compre</h3>
+                        <p>Selecione a quantidade de bonecos e finalize sua compra.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <h3>Envie sua Foto</h3>
+                        <p>Após a compra, envie a foto que será transformada em miniatura.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <h3>Produção</h3>
+                        <p>Nossa equipe transforma sua foto em um modelo 3D detalhado.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <h3>Receba em casa</h3>
+                        <p>Sua miniatura será entregue em embalagem especial e segura.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="testimonials">
+            <div class="container">
+                <h2 class="section-title-3">O que nossos clientes dizem</h2>
+                <p class="section-subtitle-3">Histórias reais de clientes satisfeitos com nossas miniaturas personalizadas</p>
+                <div class="testimonials-container">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>Fiz uma miniatura para presentear minha mãe no aniversário dela e ela amou! A semelhança com a foto original es impressionante. Vale cada centavo!</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="photo-1494790108377-be9c29b29330?q=80&auto=format&fit=crop" alt="Mariana Silva">
+                            </div>
+                            <div class="author-info">
+                                <h4>Mariana Silva</h4>
+                                <p>São Paulo, SP</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>Encomendei uma miniatura da minha família e o resultado superou todas as expectativas. Os detalhes são incríveis, desde as expressões até as roupas. Recomendo!</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="photo-1507003211169-0a1dd7228f2d?q=80&auto=format&fit=crop" alt="Ricardo Mendes">
+                            </div>
+                            <div class="author-info">
+                                <h4>Ricardo Mendes</h4>
+                                <p>Rio de Janeiro, RJ</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>Fiz uma miniatura como lembrança do meu casamento e ficou perfeita! Todo mundo que vê na minha casa fica impressionado com o realismo. Já indiquei para vários amigos!</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="photo-1438761681033-6461ffad8d80?q=80&auto=format&fit=crop" alt="Ana Carolina">
+                            </div>
+                            <div class="author-info">
+                                <h4>Ana Carolina</h4>
+                                <p>Belo Horizonte, MG</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Photo Upload Modal -->
+    <div class="modal" id="upload-modal">
+        <div class="modal-content">
+            <span class="close-modal" id="close-modal">&times;</span>
+            <h2 class="modal-title">Envie sua foto para a miniatura</h2>
+            
+            <div class="upload-form" id="upload-form">
+                <div class="form-group">
+                    <label>Fotos para miniatura (escolha as melhores imagens)</label>
+                    <div class="file-upload" id="photo-upload">
+                        <span class="upload-icon"></span>
+                        <h3>Arraste e solte ou clique para selecionar</h3>
+                        <p>Formatos aceitos: JPG, PNG (máx: 10MB)</p>
+                        <input type="file" id="photo-input" accept="image/*" multiple="">
+                    </div>
+                    <div class="upload-preview" id="photo-preview"></div>
+                </div>
+                
+                <div class="form-group">
+                    <label>Descrição ou instruções especiais (opcional)</label>
+                    <textarea class="input-field" id="custom-details" placeholder="Descreva como você imagina sua miniatura, detalhes importantes ou qualquer informação que possa nos ajudar a criar sua peça perfeita..."></textarea>
+                </div>
+                
+                <button class="buy-button" id="submit-photos"><span>Finalizar e Ir Para Pagamento</span></button>
+            </div>
+            
+            <div class="success-message" id="success-message">
+                <div class="success-icon"></div>
+                <h3>Fotos recebidas com sucesso!</h3>
+                <p>Suas fotos foram enviadas. Aguarde para continuar com o pagamento.</p>
+                <!-- O botão de redirecionamento será inserido aqui via JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast">Foto enviada com sucesso!</div>
+
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-column">
+                <h3>Miniaturas 3D</h3>
+                <p>Transformamos suas fotos em miniaturas personalizadas com impressionante realismo e qualidade.</p>
+            </div>
+            <div class="footer-column">
+                <h3>Links Rápidos</h3>
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Como Funciona</a></li>
+                    <li><a href="#">Galeria</a></li>
+                    <li><a href="#">Depoimentos</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Suporte</h3>
+                <ul>
+                    <li><a href="#">Perguntas Frequentes</a></li>
+                    <li><a href="#">Política de Privacidade</a></li>
+                    <li><a href="#">Termos de Serviço</a></li>
+                    <li><a href="https://www.instagram.com/">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Miniaturas 3D Personalizadas. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Elements
+            const thumbnails = document.querySelectorAll('.thumbnail');
+            const mainImage = document.getElementById('main-product-image');
+            const variantOptions = document.querySelectorAll('.variant-option');
+            const buyButton = document.getElementById('buy-button');
+            const modal = document.getElementById('upload-modal');
+            const closeModal = document.getElementById('close-modal');
+            const photoInput = document.getElementById('photo-input');
+            const photoPreview = document.getElementById('photo-preview');
+            const submitPhotos = document.getElementById('submit-photos');
+            const uploadForm = document.getElementById('upload-form');
+            const successMessage = document.getElementById('success-message');
+            const toast = document.getElementById('toast');
+            
+            // Store selected variant
+            let selectedVariant = {
+                option: "1",
+                price: 49,
+                url: "https://seguro.suaminiaturarealista.com/r/dVM86d501n478QM" // Default URL for 1 boneco
+            };
+            
+            // Set default selected variant
+            variantOptions[0].classList.add('selected');
+            
+            // Image Gallery
+            thumbnails.forEach(thumb => {
+                thumb.addEventListener('click', function() {
+                    // Remove active class from all thumbnails
+                    thumbnails.forEach(t => t.classList.remove('active'));
+                    
+                    // Add active class to clicked thumbnail
+                    this.classList.add('active');
+                    
+                    // Update main image
+                    const image = this.getAttribute('data-image');
+                    mainImage.src = image;
+                });
+            });
+            
+            // Variant Selection
+            variantOptions.forEach(option => {
+                option.addEventListener('click', function() {
+                    // Remove selected class from all options
+                    variantOptions.forEach(o => o.classList.remove('selected'));
+                    
+                    // Add selected class to clicked option
+                    this.classList.add('selected');
+                    
+                    // Update selected variant
+                    const optionValue = this.getAttribute('data-option');
+                    const priceValue = this.getAttribute('data-price');
+                    
+                    // Update URL based on selected option
+                    switch (optionValue) {
+                        case "1":
+                            selectedVariant.url = "https://seguro.suaminiaturarealista.com/r/dVM86d501n478QM";
+                            break;
+                        case "2":
+                            selectedVariant.url = "https://seguro.suaminiaturarealista.com/r/xJX1554VVf17h828oo";
+                            break;
+                        case "3":
+                            selectedVariant.url = "https://seguro.suaminiaturarealista.com/r/U284356T5T81STX";
+                            break;
+                        case "4":
+                            selectedVariant.url = "https://seguro.suaminiaturarealista.com/r/3T0t7G1536iu6Mj87";
+                            break;
+                        case "5":
+                            selectedVariant.url = "https://seguro.suaminiaturarealista.com/r/b5o8P6j40pM7m9p5gu1";
+                            break;
+                    }
+                    
+                    selectedVariant = {
+                        option: optionValue,
+                        price: priceValue,
+                        url: selectedVariant.url
+                    };
+                });
+            });
+            
+            // Buy Button
+            buyButton.addEventListener('click', function() {
+                // Show modal
+                modal.classList.add('show');
+                
+                // Reset form
+                uploadForm.style.display = 'flex';
+                successMessage.classList.remove('show');
+                photoPreview.innerHTML = '';
+            });
+            
+            // Close Modal
+            closeModal.addEventListener('click', function() {
+                modal.classList.remove('show');
+            });
+            
+            // Close modal when clicking outside
+            window.addEventListener('click', function(e) {
+                if (e.target === modal) {
+                    modal.classList.remove('show');
+                }
+            });
+            
+            // File Upload
+            photoInput.addEventListener('change', function(e) {
+                handleFileUpload(e.target.files);
+            });
+            
+            function handleFileUpload(files) {
+                if (!files.length) return;
+                
+                // Clear previous previews
+                photoPreview.innerHTML = '';
+                
+                // Process each file
+                for (let i = 0; i < files.length; i++) {
+                    const file = files[i];
+                    
+                    // Check file size (max 10MB)
+                    if (file.size > 10 * 1024 * 1024) {
+                        showToast('Arquivo muito grande! Máximo 10MB.');
+                        continue;
+                    }
+                    
+                    // Create preview
+                    const previewItem = document.createElement('div');
+                    previewItem.className = 'preview-item';
+                    
+                    const img = document.createElement('img');
+                    img.src = URL.createObjectURL(file);
+                    
+                    const removeBtn = document.createElement('div');
+                    removeBtn.className = 'remove-btn';
+                    removeBtn.innerHTML = '×';
+                    removeBtn.addEventListener('click', function(e) {
+                        e.stopPropagation();
+                        previewItem.remove();
+                    });
+                    
+                    previewItem.appendChild(img);
+                    previewItem.appendChild(removeBtn);
+                    photoPreview.appendChild(previewItem);
+                    
+                    // Show success toast
+                    showToast('Imagem enviada com sucesso!');
+                }
+            }
+            
+            // Drag and drop functionality
+            const fileUpload = document.getElementById('photo-upload');
+            
+            ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
+                fileUpload.addEventListener(eventName, preventDefaults, false);
+            });
+            
+            function preventDefaults(e) {
+                e.preventDefault();
+                e.stopPropagation();
+            }
+            
+            ['dragenter', 'dragover'].forEach(eventName => {
+                fileUpload.addEventListener(eventName, highlight, false);
+            });
+            
+            ['dragleave', 'drop'].forEach(eventName => {
+                fileUpload.addEventListener(eventName, unhighlight, false);
+            });
+            
+            function highlight() {
+                fileUpload.style.backgroundColor = 'rgba(248, 215, 218, 0.3)';
+                fileUpload.style.borderColor = 'var(--dark-accent)';
+            }
+            
+            function unhighlight() {
+                fileUpload.style.backgroundColor = 'rgba(248, 215, 218, 0.1)';
+                fileUpload.style.borderColor = 'var(--accent-color)';
+            }
+            
+            fileUpload.addEventListener('drop', handleDrop, false);
+            
+            function handleDrop(e) {
+                const dt = e.dataTransfer;
+                const files = dt.files;
+                
+                handleFileUpload(files);
+            }
+            
+            // Submit Photos
+           submitPhotos.addEventListener('click', function() {
+    // Check if at least one photo was uploaded
+    if (photoPreview.children.length === 0) {
+        showToast('Por favor, envie pelo menos uma foto!');
+        return;
+    }
+
+    // Hide form
+    uploadForm.style.display = 'none';
+
+    // Show success message
+    successMessage.classList.add('show');
+
+    // Redirecionar imediatamente com as UTMs preservadas
+  window.location.href = selectedVariant.url;
+});
+
+            
+            // Toast notification function
+            function showToast(message) {
+                toast.textContent = message;
+                toast.classList.add('show');
+                
+                setTimeout(function() {
+                    toast.classList.remove('show');
+                }, 3000);
+            }
+            
+            // Mobile improvements
+            if ('ontouchstart' in document.documentElement) {
+                document.addEventListener('touchstart', function() {}, {passive: true});
+            }
+        });
+    </script>
+    
+  
+   
+   <script src="scripts/utms/latest.js" data-utmify-prevent-xcod-sck="" data-utmify-prevent-subids="" async="" defer=""></script>
+
+
+    
+</body>
+</html></main></body></body></html>

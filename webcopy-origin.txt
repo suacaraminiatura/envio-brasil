@@ -1,0 +1,96 @@
+Uri: https://cdn.utmify.com.br/scripts/utms/latest.js
+File Name: C:\Downloaded Web Sites\suaminiaturarealista.com\scripts\utms\latest.js
+Content Type: text/javascript
+
+Uri: https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Cormorant+Garamond:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap
+File Name: C:\Downloaded Web Sites\suaminiaturarealista.com\css2
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/cormorantgaramond/v19/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9GnM.ttf
+File Name: C:\Downloaded Web Sites\suaminiaturarealista.com\s\cormorantgaramond\v19\co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9GnM.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/cormorantgaramond/v19/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_iE9GnM.ttf
+File Name: C:\Downloaded Web Sites\suaminiaturarealista.com\s\cormorantgaramond\v19\co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_iE9GnM.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/cormorantgaramond/v19/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_s06GnM.ttf
+File Name: C:\Downloaded Web Sites\suaminiaturarealista.com\s\cormorantgaramond\v19\co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_s06GnM.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/cormorantgaramond/v19/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_v86GnM.ttf
+File Name: C:\Downloaded Web Sites\suaminiaturarealista.com\s\cormorantgaramond\v19\co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_v86GnM.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v29/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCs16Ew-.ttf
+File Name: C:\Downloaded Web Sites\suaminiaturarealista.com\s\montserrat\v29\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCs16Ew-.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v29/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Ew-.ttf
+File Name: C:\Downloaded Web Sites\suaminiaturarealista.com\s\montserrat\v29\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Ew-.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v29/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtZ6Ew-.ttf
+File Name: C:\Downloaded Web Sites\suaminiaturarealista.com\s\montserrat\v29\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtZ6Ew-.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v29/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu170w-.ttf
+File Name: C:\Downloaded Web Sites\suaminiaturarealista.com\s\montserrat\v29\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu170w-.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v29/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM70w-.ttf
+File Name: C:\Downloaded Web Sites\suaminiaturarealista.com\s\montserrat\v29\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM70w-.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/playfairdisplay/v37/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKd3vUDQ.ttf
+File Name: C:\Downloaded Web Sites\suaminiaturarealista.com\s\playfairdisplay\v37\nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKd3vUDQ.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/playfairdisplay/v37/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKdFvUDQ.ttf
+File Name: C:\Downloaded Web Sites\suaminiaturarealista.com\s\playfairdisplay\v37\nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKdFvUDQ.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/playfairdisplay/v37/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKebukDQ.ttf
+File Name: C:\Downloaded Web Sites\suaminiaturarealista.com\s\playfairdisplay\v37\nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKebukDQ.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/playfairdisplay/v37/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKeiukDQ.ttf
+File Name: C:\Downloaded Web Sites\suaminiaturarealista.com\s\playfairdisplay\v37\nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKeiukDQ.ttf
+Content Type: font/ttf
+
+Uri: https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&auto=format&fit=crop
+File Name: C:\Downloaded Web Sites\suaminiaturarealista.com\photo-1438761681033-6461ffad8d80
+Content Type: image/jpeg
+
+Uri: https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&auto=format&fit=crop
+File Name: C:\Downloaded Web Sites\suaminiaturarealista.com\photo-1494790108377-be9c29b29330
+Content Type: image/jpeg
+
+Uri: https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&auto=format&fit=crop
+File Name: C:\Downloaded Web Sites\suaminiaturarealista.com\photo-1507003211169-0a1dd7228f2d
+Content Type: image/jpeg
+
+Uri: https://suaminiaturarealista.com/
+File Name: C:\Downloaded Web Sites\suaminiaturarealista.com\index.htm
+Content Type: text/html
+
+Uri: https://suaminiaturarealista.com/images/001.webp
+File Name: C:\Downloaded Web Sites\suaminiaturarealista.com\images\001.webp
+Content Type: image/webp
+
+Uri: https://suaminiaturarealista.com/images/002.webp
+File Name: C:\Downloaded Web Sites\suaminiaturarealista.com\images\002.webp
+Content Type: image/webp
+
+Uri: https://suaminiaturarealista.com/images/003.webp
+File Name: C:\Downloaded Web Sites\suaminiaturarealista.com\images\003.webp
+Content Type: image/webp
+
+Uri: https://suaminiaturarealista.com/images/004.webp
+File Name: C:\Downloaded Web Sites\suaminiaturarealista.com\images\004.webp
+Content Type: image/webp
+
+Uri: https://suaminiaturarealista.com/images/005.webp
+File Name: C:\Downloaded Web Sites\suaminiaturarealista.com\images\005.webp
+Content Type: image/webp
+
